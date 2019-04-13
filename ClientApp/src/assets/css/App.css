@@ -1,0 +1,76 @@
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+  }
+  .navbar {
+    background-color: #373737;
+  }
+  html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #C0B283;
+  }
+  
+  .text-dark  .nav-link{
+    color: #C0B283;
+  }
+  
+  .text-dark{
+    color: #C0B283;
+  }
+  
+  a {
+    color: #C0B283;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #C0B283;
+  }
+  
+  .box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  }
+  
+.sideBar {
+    width: 23%;
+    padding: 30px;
+    background-color: #263342;
+    height: auto;
+    border-radius: 5px;
+    margin-left: -115px;
+  }
+
+  .loginHeader {
+    background-color: #DCD0C0;
+    color: #373737;
+    width: 300px;
+    height: 50px;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(21.6, 21.6, 21.6);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(21.6, 21.6, 21.6);
+    box-shadow: 0px 0px 3px 0px rgba(21.6, 21.6, 21.6);
+    margin: -65px 15px 0;
+    border-radius: 3px;
+    padding: 15px;
+    position: "relative";
+  }
+  
+  .loginBox {
+    background-color: #F4F4F4;
+    color: #373737;
+    width: 450px;
+    height: auto;
+    padding: 50px;
+    margin: auto;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(21.6, 21.6, 21.6);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(21.6, 21.6, 21.6);
+    box-shadow: 0px 0px 3px 0px rgba(21.6, 21.6, 21.6);
+  }

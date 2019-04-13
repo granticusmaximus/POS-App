@@ -1,0 +1,40 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+.navbar {
+  background-image: linear-gradient(grey, black);
+}
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.navbar-light .navbar-brand {
+  color: #C0B283;
+}
+
+.text-dark  .nav-link{
+  color: #C0B283;
+}
+
+.text-dark{
+  color: #C0B283;
+}
+
+a {
+  color: #C0B283;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #C0B283;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
