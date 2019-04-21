@@ -6,5 +6,9 @@ namespace pos_app.Services
     {
         private IValidationDictionary _validation;
         
+        public UserServices(IValidationDictionary validation)
+        {
+            _validation = validation;
+        }
     }
 }

@@ -14,5 +14,6 @@ namespace pos_app
         public DbSet<Product> Products { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<Report> Reports {get;set;}
     }
 }
